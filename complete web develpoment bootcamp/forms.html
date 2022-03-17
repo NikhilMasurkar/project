@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <a href="forms.css"></a>
+    <title>Forms</title>
+</head>
+
+<body>
+    <h3>This is HMTL Forms </h3>
+    <form action="backend.php" >
+        <fieldset style="border-width: 1ch;">
+            <legend > <b> Inquiry Form<b></legend>
+ <center>
+        <label for="userid">Enter the Name</label> 
+        <div>
+            <input type="text" name="myid" id="userid">
+        </div>
+        <a href="https://www.linkedin.com/checkpoint/lg/login-submit" target="_blank">linkedin</a>
+        <br>
+        <label for="mypass">Enter the user id:-</label>
+        <div>
+        <input type="text" name="mypass"id="mypass">
+        </div>
+        <br>
+        <label for="email">Enter the email:-</label>
+        <div>
+             <input type="email" name="myemail"id="email">
+        </div>
+        <br>
+        <div>
+            <label for="state">state</label>
+            <select name="state" id="state">
+            <option value="madya pradesh">madya pradash</option>
+            <option value="maharashtra"selected>Maharashtra </option>
+            <option value="chattisgaad">chattisgaad</option>
+            <option value="andrapradesh">andrapradesh</option>
+        </select><br>
+        <label for="city">city</label>
+        <select name="name_of_city" id="city">
+            <option value="Wardha">Wardha</option>
+            <option value="nagpur">nagpur</option>
+            <option value="Allipur">Allipur</option>
+            <option value="Hinganghat"selected>Hinganghat</option>
+        </select>
+        </div>
+       
+    Date:- <input type="date" name="" id="">
+        <br>
+        <!-- <div>
+            Time:-  <input type="time" name="" id="">
+        </div> -->
+        <br>
+        <div>
+            bonous:- <input type="number"name="mybonus">
+        </div>
+        <br>
+        <div>
+            Are you:- Web devloper <input type="checkbox"name="webdevloper">
+        </div>
+        <br>
+        <div>
+            Gender <br> <input type="radio"name="mygender"> Male
+            <input type="radio"name="mygender"> Female  
+            <input type="radio"name="mygender">Trans
+        </div>
+        
+        tell me about yourself:- <br> <textarea name="mytext"></textarea>
+        
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="reset now">
+        </div>
+    </fieldset>
+</center>
+
+        </form>
+</body>
+
+</html>
