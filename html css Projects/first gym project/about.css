@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: url(images/pexels-lukas-669584.jpg);
+    font-family: 'Playball', cursive;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #5a5e6a;
+    width: 2151px;
+    background-size:cover ;
+}
+.main{
+    position: absolute;
+    display: block;
+    margin: auto;
+}
+
+.left {
+       /* border: 2px solid red; */
+       display: inline-block;
+       position: fixed;
+       left: 44px;
+       top: 11px;
+       width: 150px;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 40%;
+    margin: 20px 650px;
+    position: fixed;
+
+}
+
+
+.navbar {
+    display: inline-block;
+
+    margin-left: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    padding: 20px 23px;
+    text-decoration: none;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: #504848;
+}
+
+.left img {
+    width: 70px;
+    filter: invert(100%);
+    margin-left: 40px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 13px;
+    font: 25px;
+}
+
+.right {
+    position: fixed;
+    right: 34px;
+    top: 34px;
+    display: inline-block;
+}
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Playball', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(39, 37, 37);
+    box-shadow: 0 40 150 gray;
+
+}
+
+.container {
+    /* border: 2px solid #f5f8f5;  */
+
+    margin:122px 370px;
+    padding: 41px;
+    width: 47%;
+    border-radius: 27px;
+    color: #0d0c0c;
+    text-transform: capitalize;
+    text-align: justify;
+    font-size: 21px;
+    }
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 505px;
+    padding: 1px;
+    border: 3px solid black;
+    margin: 11px auto;
+    border-radius: 10px;
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+}
+
+.container button {
+    display: block;
+    width: 77%;
+    margin: 30px auto;
+    padding: 4px;
+    border-radius: 12px;
+    font-size: 27px;
+    color: balck;
+}
+.join{
+    color: white;
+    text-decoration: none;
+}
