@@ -7,75 +7,71 @@ body {
     background-position: top;
     background-repeat: no-repeat;
     background-color: #5a5e6a;
-    width: 2151px;
-    background-size:cover ;
-}
-.main{
-    position: absolute;
-    display: block;
-    margin: auto;
-}
-
-.left {
-       /* border: 2px solid red; */
-       display: inline-block;
-       position: fixed;
-       left: 44px;
-       top: 11px;
-       width: 150px;
-}
-
-.mid {
-    /* border: 2px solid green; */
-    display: block;
-    width: 40%;
-    margin: 20px 650px;
-    position: fixed;
+    background-size: cover;
 
 }
-
-
-.navbar {
-    display: inline-block;
-
-    margin-left: 20px;
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 124px;
+    box-sizing: border-box;
 }
-
-.navbar li {
-    display: inline-block;
-    font-size: 25px;
-}
-
-.navbar li a {
-    color: white;
-    padding: 20px 23px;
-    text-decoration: none;
-}
-
-.navbar li a:hover,
-.navbar li a.active {
-    text-decoration: underline;
-    color: #504848;
-}
-
-.left img {
+.left img{
     width: 70px;
     filter: invert(100%);
-    margin-left: 40px;
+    margin-left:84px;
+    margin-top: 10px;
 }
-
 .left div {
     text-align: center;
     line-height: 13px;
     font: 25px;
+    margin-left:40px;
+    width: 150px;
+
+}
+.mid{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.mid .navbar ul{ 
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+li a{
+    text-decoration: none;
+    margin-left: 57px;
+    font-size: 25px;
+    color: white;
+   
+}
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: #a3a1a1;
+}
+.right {
+    margin: 34px 34px;
+    top: 34px;
+    display: flex;
+}
+.right .btn a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    width: 108px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
 }
 
-.right {
-    position: fixed;
-    right: 34px;
-    top: 34px;
-    display: inline-block;
-}
 .btn {
     margin: 0px 9px;
     color: white;
@@ -96,19 +92,24 @@ body {
 
 .container {
     /* border: 2px solid #f5f8f5;  */
-
-    margin:122px 370px;
+    justify-content: center;
     padding: 41px;
-    width: 47%;
+    width: 100%;
     border-radius: 27px;
     color: #0d0c0c;
     text-transform: capitalize;
     text-align: justify;
     font-size: 21px;
-    }
+}
 
-.container h1 {
+.container .group {
     text-align: center;
+    margin-top: 200px;
+}
+
+.container .group h3 {
+    color: rgb(41, 39, 39);
+    font-weight: 400;
 }
 
 .form-group input {
@@ -125,14 +126,20 @@ body {
 
 .container button {
     display: block;
-    width: 77%;
+    width: 40%;
     margin: 30px auto;
     padding: 4px;
     border-radius: 12px;
     font-size: 27px;
-    color: balck;
 }
-.join{
+
+.btn .join{
     color: white;
     text-decoration: none;
+}
+
+.group-why {
+    text-align: center;
+    margin: 150px auto;
+    width: 34%;
 }
