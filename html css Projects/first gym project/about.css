@@ -2,11 +2,11 @@ body {
     padding: 0;
     margin: 0;
     color: white;
-    background: url(images/pexels-lukas-669584.jpg);
+    background: url(https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     font-family: 'Playball', cursive;
     background-position: top;
     background-repeat: no-repeat;
-    background-color: #5a5e6a;
+    background-color: #a3a6ad;
     background-size: cover;
 
 }
@@ -26,9 +26,8 @@ header{
 .left div {
     text-align: center;
     line-height: 13px;
-    font: 25px;
-    margin-left:40px;
-    width: 150px;
+    margin-left: 43px;
+    font-size: 21px;
 
 }
 .mid{
@@ -92,11 +91,9 @@ li a{
 
 .container {
     /* border: 2px solid #f5f8f5;  */
-    justify-content: center;
-    padding: 41px;
     width: 100%;
     border-radius: 27px;
-    color: #0d0c0c;
+    color: #dad8d8;
     text-transform: capitalize;
     text-align: justify;
     font-size: 21px;
@@ -140,6 +137,6 @@ li a{
 
 .group-why {
     text-align: center;
-    margin: 150px auto;
+    margin: 153px auto;
     width: 34%;
 }
