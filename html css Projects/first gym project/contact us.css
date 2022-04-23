@@ -99,7 +99,6 @@ li a{
     text-transform: capitalize;
     margin: auto;
     text-align: center;
-   
     }
 .container>h1{
         text-align: center;
@@ -163,6 +162,7 @@ li a{
     margin: auto;
     justify-content: center;
     text-align: center;
+    background: rgb(0 0 0 / 82%);   
 
 }
 .location{
